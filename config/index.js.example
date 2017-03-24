@@ -1,0 +1,18 @@
+'use strict'
+
+module.exports = {
+    amazon:{
+        accessKeyId: "YOUR-AMAZON-ACCESSKEY",
+        secretAccessKey: "YOUR-AMAZON-SECRET",
+        region: "us-east-1"
+    },
+    lex: {
+        botAlias: "YOUR-BOT-ALIAS",
+        botName: "YOUR-BOT-NAME"
+    },
+    restcomm: {
+        host:"YOUR-RESTCOMM-HOST",
+        accountSid: "YOUR-RESTCOMM-ACCOUNT-SID",
+        accountSecret: "YOUR-RESTCOMM-ACCOUNT-SECRET"
+    }
+}
