@@ -22,10 +22,11 @@ Then...
 ```
 $ git clone git@github.com:scottbarstow/lex-restcomm-chatbot.git
 $ cd lex-restcomm-chatbot
-$ npm install -g grunt nodemon
+$ npm install -g nodemon
 $ npm install
 $ cp config/index.js.example config/index.js
 
+# note that nodemon is not required but makes it nice to not have to restart the app all the time
 # Edit the config values to fit your setup, then
 
 $ HOST=0.0.0.0 PORT=3000 nodemon npm start
